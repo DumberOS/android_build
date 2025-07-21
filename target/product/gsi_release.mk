@@ -60,10 +60,6 @@ PRODUCT_COPY_FILES += \
 # b/308878144 no more VNDK on 24Q1 and beyond
 KEEP_VNDK ?= false
 
-# Support additional VNDK snapshots
-PRODUCT_EXTRA_VNDK_VERSIONS := \
-    30 \
-
 # Do not build non-GSI partition images.
 PRODUCT_BUILD_CACHE_IMAGE := false
 PRODUCT_BUILD_DEBUG_BOOT_IMAGE := false
